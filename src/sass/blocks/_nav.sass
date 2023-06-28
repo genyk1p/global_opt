@@ -12,9 +12,6 @@
         height: 100vh
         &_show
             display: block
-    &__menu-cross
-        right: 25px
-        top: 25px
     &__menu
         transition-duration: .5s
         transform: translateX(-100%)
@@ -33,6 +30,10 @@
             transform: translateX(0)
         li
             padding-bottom: 15px
+    &__menu-cross
+        right: 25px
+        top: 25px
+        padding-bottom: 0
     &__menu-link
         position: relative
         text-align: center
@@ -49,4 +50,7 @@
             width: 12px
             height: 12px
             background: url("../icons/circle.svg") center center / cover no-repeat
+.nav
+    .nav__menu-cross
+        padding-bottom: 0
                 
